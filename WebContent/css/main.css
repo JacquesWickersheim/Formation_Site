@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 body
 {
 	background-color: black;
@@ -73,6 +74,7 @@ a
 	display: flex;
 	justify-content: center;
 	align-item: center;
+	opacity: 0.9;
 }
 
 /* Design 1er Titre Principal histoire*/
