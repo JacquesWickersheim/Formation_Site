@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+body
+{
+	background-color: black;
+}
+
+@font-face
+{
+	font-family: 'Photograph_Signature';
+	src: url('polices/PhotographSignature.ttf')
+}
+
+
+/* Titre1 Accueil */
+.titre1
+{
+	color: red;
+	text-decoration: underline;
+	font-size: 30px;
+	text-align: center;
+	font-family: Photograph_Signature;
+	font-style: italic;
+	
+	border-left: 5px double blue;
+	border-top: 5px double white;
+	border-bottom: 5px double white;
+	border-radius: 15px;
+	
+}
+
+a
+{
+	text-decoration: none;
+	color: cyan;
+}
+
+.boutons_accueil
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+}
+
+.boutons_accueil ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.boutons_accueil li
+{
+	display: inline-block;
+	font-size: 30px;
+}
+
+.boutons_accueil a
+{
+	display: block;
+	color: cyan;
+	text-align: center;
+	text-decoration: none;
+	
+	border-bottom: 2px solid red;
+	border-top: 2px solid red;
+	border-radius: 15px;
+	background: black;
+}
+
+/* Design 1er Titre Principal histoire*/
+
+.titre1_histoire
+{
+	color: red;
+	text-decoration: underline;
+	font-size: 30px;
+	text-align:center;
+	font-family: Photograph_Signature;
+	
+	border-left: 5px double blue;
+	border-top: 5px double white;
+	border-bottom: 5px double white;
+	border-right: 5px double red;
+	border-radius: 15px;
+}
+
+/* text_accueil */
+
+.text_histoire
+{
+	color: lightblue;
+	font-family: Photograph_Signature;
+	text-align: center;
+	font-size: 40px; 
+}
+
+.article1
+{
+	color: lightblue;
+	
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	border-radius: 15px;
+}
+
+.partie_1
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.article2
+{
+	color: lightblue;
+	
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
+	border-radius: 15px;
+}
+
+.partie_2
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.article3
+{
+	color: lightblue;
+	
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
+	border-radius: 15px;
+}
+
+.partie_3
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.article4
+{
+	color: lightblue;
+	
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
+	border-radius: 15px;
+}
+
+.partie_4
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 15px;
+}
+
+.partie_5
+{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 15px;
+	color: red;
+}
+
+
+/* Design Pied de Page */
+
+.pied_page 
+{
+	color: red;
+	text-align: center;
+	font-style: italic;
+	
+	border-left: 5px double blue;
+	border-top: 5px double white;
+	border-bottom: 5px double white;
+	border-right: 5px double red;
+	border-radius: 15px;
+}
+
+
+
