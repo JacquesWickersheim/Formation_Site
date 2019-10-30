@@ -176,6 +176,41 @@ a
 	color: red;
 }
 
+.navbar
+{
+	color: cyan;
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	flex-direction: row;
+}
+
+.navbar ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	flex-direction: row;
+}
+
+.navbar li
+{
+	display: inline-box;
+	font-size: 15px;
+}
+
+.navbar a
+{
+	display: block;
+	flex-direction: row;
+	color: cyan;
+	text-align;
+	text-decoration: none;
+	
+	border-left: 2px solid red;
+	border-rigt: 2px solid red;
+}
+
 
 /* Design Pied de Page */
 
