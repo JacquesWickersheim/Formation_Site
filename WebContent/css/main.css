@@ -68,6 +68,13 @@ a
 	background: black;
 }
 
+.video
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+}
+
 /* Design 1er Titre Principal histoire*/
 
 .titre1_histoire
