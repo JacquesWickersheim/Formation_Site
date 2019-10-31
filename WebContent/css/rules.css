@@ -1,36 +1,10 @@
 @charset "utf-8";
 
-.main_histoire
+.main_regle
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-}
-
-.titre_mauvais_langage
-{
-	display: flex;
-	justify-content: center;
-	align-item: center;
-	
-	color: #e0e0eb;
-	text-decoration: underline;
-}
-
-.mauvais_langage
-{
-	display: flex;
-	justify-content: left;
-	align-item: left;
-	flex-direction: column;
-	
-	color: #e0e0eb;
-	text-align: center;
-	
-	border-top: 5px solid blue;
-	border-bottom: 5px solid blue;
-	
-	max-width: 600px;
 }
 
 .titre_intimidation
@@ -46,8 +20,8 @@
 .intimidation
 {
 	display: flex;
-	justify-content: right;
-	align-item: right;
+	justify-content: center;
+	align-item: center;
 	flex-direction: column;
 	
 	color: #e0e0eb;
@@ -57,6 +31,8 @@
 	border-bottom: 5px solid red;
 	
 	max-with: 200px;
+	padding-bottom: 50px;
+	margin-top: -180px;
 }
 
 .titre_vie_privée
