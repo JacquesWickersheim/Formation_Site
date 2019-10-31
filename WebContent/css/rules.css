@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+.main
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.titre_mauvais_langage
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	
+	color: red;
+	text-decoration: underline;
+}
+
+.mauvais_langage
+{
+	display: flex;
+	justify-content: left;
+	align-item: left;
+	flex-direction: column;
+	
+	color: blue;
+	text-align: center;
+	
+	border-top: 5px solid white;
+	border-right: 5px solid red;
+	border-bottom: 5px solid white;
+	border-radius: 15px;
+	
+	max-width: 600px;
+}
+
+.titre_intimidation
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	
+	color: red;
+	text-decoration: underline;
+}
+
+.intimidation
+{
+	display: flex;
+	justify-content: right;
+	align-item: right;
+	flex-direction: column;
+	
+	color: blue;
+	text-align: center;
+	
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	border-left: 5px solid blue;
+	border-radius: 15px;
+	
+	max-with: 200px;
+}
+
+.titre_vie_privée
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	
+	color: red;
+	text-decoration: underline;
+}
+
+.vie_privée
+{
+	display: flex;
+	justify-content;
+	align-item: center;
+	flex-direction: column;
+	
+	color: blue;
+	text-align: center;
+	
+	border-top: 5px solid red;
+	box-shadow: 5px 5px 5px blue;
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
