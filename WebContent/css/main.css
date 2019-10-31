@@ -77,6 +77,20 @@ a
 	border-radius: 15px;
 }
 
+.formulaire
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	
+	color: cyan;
+	
+	border-top: 5px solid blue;
+	border-bottom: 5px solid red;
+	border-radius: 30px;
+}
+
+
 
 
 
