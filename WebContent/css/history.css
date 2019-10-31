@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.main_histoire
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.titre_histoire
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.histoire
+{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+	color: grey;
+	text-align: center;
+	
+	border-left: 5px solid blue;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+	border-right: 5px solid red;
+	border-radius: 15px;	
+}
