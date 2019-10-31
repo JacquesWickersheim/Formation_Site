@@ -1,83 +1,29 @@
 @charset "utf-8";
 
-.main_regle
+.main_rules
 {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
-.titre_intimidation
+.rules1
 {
 	display: flex;
-	justify-content: center;
+	justify-content: left;
 	align-item: center;
-	
-	color: #e0e0eb;
-	text-decoration: underline;
-}
-
-.intimidation
-{
-	display: flex;
-	justify-content: center;
-	align-item: center;
+	text-align: center;
 	flex-direction: column;
 	
 	color: #e0e0eb;
-	text-align: center;
 	
-	border-top: 5px solid red;
-	border-bottom: 5px solid red;
-	
-	max-with: 200px;
-	padding-bottom: 50px;
-	margin-top: -180px;
+	border-right: 2px solid red;
+	border-radius: 5px;
+	padding-right: 10px;
 }
 
-.titre_vie_privée
+.rules1_titre
 {
-	display: flex;
-	justify-content: center;
-	align-item: center;
-	
-	color: #e0e0eb;
-	text-decoration: underline;
+	text-decoration: underline
+	color: red;
 }
-
-.vie_privée
-{
-	display: flex;
-	justify-content;
-	align-item: center;
-	flex-direction: column;
-	
-	color: #e0e0eb;
-	text-align: center;
-	
-	border-top: 5px solid blue;
-	border-bottom: 5px solid red;
-	border-radius: 15px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
