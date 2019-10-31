@@ -27,10 +27,8 @@
 	color: blue;
 	text-align: center;
 	
-	border-top: 5px solid white;
-	border-right: 5px solid red;
-	border-bottom: 5px solid white;
-	border-radius: 15px;
+	border-top: 5px solid blue;
+	border-bottom: 5px solid blue;
 	
 	max-width: 600px;
 }
@@ -55,10 +53,8 @@
 	color: blue;
 	text-align: center;
 	
-	border-top: 5px solid white;
-	border-bottom: 5px solid white;
-	border-left: 5px solid blue;
-	border-radius: 15px;
+	border-top: 5px solid red;
+	border-bottom: 5px solid red;
 	
 	max-with: 200px;
 }
@@ -83,8 +79,8 @@
 	color: blue;
 	text-align: center;
 	
-	border-top: 5px solid red;
-	box-shadow: 5px 5px 5px blue;
+	border-top: 5px solid blue;
+	border-bottom: 5px solid red;
 	border-radius: 15px;
 }
 
