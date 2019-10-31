@@ -30,6 +30,7 @@ a
 	display: flex;
 	justify-content: center;
 	align-item: center;
+	flex-direction: row;
 }
 
 .navbar ul
@@ -37,21 +38,25 @@ a
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
+	flex-direction: row;
+	display: flex;
 }
 
 .navbar li
 {
-	display: block;
+	display: flex;
 	color: cyan;
 	font-size: 15px;
+	flex-direction: row;
 }
 
 .navbar a
 {
-	display: block;
+	display: flex;
 	color: cyan;
 	text-align: center;
 	text-decoration: none;
+	flex-direction: row;
 	
 	border-left: 2px solid red;
 	border-right: 2px solid red;

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+.main_index
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.index_main
+{
+	display: flex;
+	justify-content: left;
+	text-align: center;
+	
+	margin-left: 50px;
+}
+
+.metiers
+{
+	display: flex;
+	justify-content: left;
+	align-item: center;
+	text-align: center;
+	flex-direction: column;
+	
+	color: #e0e0eb;
+	
+	border-right: 2px solid red;
+	border-radius: 5px;
+	padding-right: 10px;
+}
+
+.index2_main
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.metiers2
+{
+	display: flex;
+	justify-content: center;
+	align-item: center;
+	text-align: center;
+	flex-direction: column;
+	
+	color: #e0e0eb;
+	
+	border-right: 2px solid red;
+	border-radius: 15px;
+	padding-right: 10px;
+	
+	border-left: 2px solid red;
+	padding-left: 10px;
+}
+
+.index3_main
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-left: 80px;
+}
+
+.metiers3
+{
+	display: flex;
+	justify-content: right;
+	align-item: center;
+	text-align: center;
+	flex-direction: column;
+	
+	color: #e0e0eb;
+	
+	border-radius: 15px;
+	
+	border-left: 2px solid red;
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
