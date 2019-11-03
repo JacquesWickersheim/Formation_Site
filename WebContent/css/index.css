@@ -1,87 +1,106 @@
 @charset "utf-8";
 
 
-.main_index
+
+.Accueil_box_principale
 {
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 }
 
-.index_main
-{
-	display: flex;
-	justify-content: left;
-	text-align: center;
-	
-	margin-left: 50px;
-}
 
-.metiers
+.main_accueil
 {
 	display: flex;
-	justify-content: left;
-	align-item: center;
-	text-align: center;
-	flex-direction: column;
-	
+	justify-content: space-between;
 	color: #e0e0eb;
-	
-	border-right: 2px solid red;
-	border-radius: 5px;
-	padding-right: 10px;
-}
-
-.index2_main
-{
-	display: flex;
 	justify-content: center;
-	text-align: center;
-	margin-left: 100px;
-}
-
-.metiers2
-{
-	display: flex;
-	justify-content: center;
-	align-item: center;
-	text-align: center;
-	flex-direction: column;
-	
-	color: #e0e0eb;
-	
-	border-right: 2px solid red;
-	border-radius: 15px;
-	padding-right: 10px;
-	
 	border-left: 2px solid red;
-	padding-left: 10px;
-}
-
-.index3_main
-{
-	display: flex;
-	justify-content: center;
+	border-right: 2px solid red;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	margin-left: 100px;
 	text-align: center;
-	margin-left: 80px;
 }
 
-.metiers3
+h2
+{
+	text-decoration: underline;
+	color: red;
+}
+
+.1
 {
 	display: flex;
+	color: #e0e0eb;
+	flex-direction: column;
+	justify-content: center;
+	align-item: center;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.main2_accueil
+{
+	display: flex;
+	justify-content: space-between;
+	color: #e0e0eb;
+	justify-content: left;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	margin-left: 100px;
+	text-align: center;
+}
+
+.2
+{
+	display: flex;
+	color: #e0e0eb;
+	flex-direction: column;
+	justify-content: left;
+	align-item: center;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
+}
+
+.main3_accueil
+{
+	display: flex;
+	justify-content: space-between;
+	color: #e0e0eb;
+	justify-content: right;
+	border-left: 2px solid red;
+	border-right: 2px solid red;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 10px;
+	margin-right: 100px;
+	text-align: center;
+}
+
+.3
+{
+	display: flex;
+	color: #e0e0eb;
+	flex-direction: column;
 	justify-content: right;
 	align-item: center;
-	text-align: center;
-	flex-direction: column;
-	
-	color: #e0e0eb;
-	
-	border-radius: 15px;
-	
 	border-left: 2px solid red;
+	border-right: 2px solid red;
 	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 10px;
 }
-
 
 
 
